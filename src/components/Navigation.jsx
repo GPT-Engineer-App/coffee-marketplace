@@ -16,8 +16,14 @@ const Navigation = () => {
         <Link px={2} color={linkColor} to="/">
           Home
         </Link>
+        <Link px={2} color={linkColor} to="/">
+          Home
+        </Link>
         <Link px={2} color={linkColor} to="/subpage">
           Subpage
+        </Link>
+        <Link px={2} color={linkColor} to="/basket">
+          Basket
         </Link>
       </Box>
     </Flex>
