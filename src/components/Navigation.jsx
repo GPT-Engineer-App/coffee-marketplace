@@ -25,6 +25,9 @@ const Navigation = () => {
         <Link px={2} color={linkColor} to="/basket">
           Basket
         </Link>
+        <Link px={2} color={linkColor} to="/survey">
+          Survey
+        </Link>
       </Box>
     </Flex>
   );
